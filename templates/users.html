@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title> Users Ujian Praktikum_1184077_ALVIAN</title>
+</head>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="">
+<body>
+	<div class="container"
+	<h1> Please Sign Up Here! </h1>
+	<form method="POST">
+		{{ form.as_p }}
+		{% csrf_token %}
+		<input type="submit" class="btn btn-primary" value="Submit" />
+	</form>
+
+</body>
+</html>
+

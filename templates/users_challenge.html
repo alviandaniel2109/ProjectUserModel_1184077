@@ -1,0 +1,13 @@
+<h1> Here Are Your Users :</h1>
+{% if users %}
+<ol>
+{% for p in users %}
+<li>User Info</li>
+<ul>
+    <li>First Name : {{p.first_name.}}</li>
+    <li>Last Name : {{p.last_name}}</li>
+    <li>EMAIL : {{p.email}}</li>
+</ul>
+{% endfor %}
+{% endif %}
+
